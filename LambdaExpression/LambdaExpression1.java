@@ -1,6 +1,7 @@
 package StreamAPIJava8.LambdaExpression;
 
 /*
+*  Syntax :  (argument-list) -> {body}
 *  Lambda Expression consist of three things:
 *  1:) Argument-list: It can be empty or non-empty as well.
 *  2:) Arrow-token: It is used to link arguments-list and body of expression.
