@@ -41,4 +41,5 @@ public class LambdaExpression1 {
         d.draw();
     }
 
+
 }

@@ -1,5 +1,6 @@
 package StreamAPIJava8.LambdaExpression;
 
+//   Java Lambda Expression Example
 interface Drawable1{
     public void draw();
 }
