@@ -24,5 +24,7 @@ public class Iteration1 {
 
         System.out.println("------------Iterating by passing method reference(forEachOrdered)---------------");
         list.stream().forEachOrdered(System.out::println);
+
+
     }
 }
