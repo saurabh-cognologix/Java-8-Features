@@ -23,7 +23,7 @@ public class Main2 {
         Map<Integer,String> treeMap = arrayList.stream()
                 .collect(Collectors.toMap(
                         Student::getStudentId,
-                        Student::getStudentName,
+                        e-> e.getStudentName().toUpperCase(),
                         (s,a)->s+" , "+a,
                         TreeMap::new
                 ));
