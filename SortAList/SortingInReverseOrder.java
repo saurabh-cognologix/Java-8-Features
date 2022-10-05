@@ -4,6 +4,11 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 import java.util.stream.Collectors;
+/*
+* 1) The reverseOrder() is a method of Comparator interface which is defined in java.util package.
+* 2) The method returns a comparator that imposes the reverse of the natural ordering.
+* 3) It throws NullPointerException when comparing null.
+* */
 
 public class SortingInReverseOrder {
     public static void main(String[] args) {
